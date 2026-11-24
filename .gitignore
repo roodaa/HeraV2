@@ -1,0 +1,53 @@
+# Cahier des charges (non versionné)
+Cahier des charges*.docx
+cahier_des_charges.md
+~$*.docx
+
+# Secrets et configuration locale
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Tests et couverture
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+.next/
+out/
+coverage/
+
+# Données locales
+*.db
+*.sqlite3
+backups/
+*.log
+logs/
+
+# IDE et OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code (réglages locaux)
+.claude/settings.local.json
